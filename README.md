@@ -4,9 +4,13 @@ A simple server to change the mode of your arlo camera
 To make this run you will need to run the following commands on a minimal debian / minibian server:
 
 apt-get install python-setuptools
+
 pip install selenium
+
 apt-get install xvfb
+
 apt-get install iceweasel
+
 pip install bottle
 
 
@@ -15,7 +19,9 @@ Then edit the ArloCamerasAllOn.py file and add your username and password these 
 then you can run with 
 
 Xvfb :99 -ac &
+
 export DISPLAY=:99
+
 python ArloCamerasAllOn.py 
 
 you should then get something like:
