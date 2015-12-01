@@ -13,9 +13,9 @@ Then edit the ArloCamerasAllOn.py file and add your username and password these 
 
 then you can run with 
 
-   Xvfb :99 -ac &
-   export DISPLAY=:99
-   python ArloCamerasAllOn.py 
+    Xvfb :99 -ac &
+    export DISPLAY=:99
+    python ArloCamerasAllOn.py 
 
 you should then get something like:
 
